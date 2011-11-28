@@ -1,0 +1,19 @@
+Name:                cabaltest
+Synopsis:            Figuring out how to make "cabal test" really work
+Version:             0.1
+License:             BSD3
+License-file:        LICENSE
+Author:              Juha Paananen
+Maintainer:          juha.paananen@gmail.com
+Category:            Testing
+Build-type:          Simple
+
+Cabal-version:       >=1.2
+
+
+Executable cabaltest
+  Main-is: Main.hs
+
+Test-suite tests
+  Type:           exitcode-stdio-1.0
+  Main-is:        Specs.hs
