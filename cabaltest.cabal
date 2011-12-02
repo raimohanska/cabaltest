@@ -18,4 +18,4 @@ Executable cabaltest
 Test-Suite tests
   Type:           exitcode-stdio-1.0
   Main-is:        Specs.hs
-  Build-depends:  base, HUnit >= 1.2.4.2
+  Build-depends:  base, HUnit >= 1.2.4.2, hspec >= 0.9.0
