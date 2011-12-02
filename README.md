@@ -1,0 +1,1 @@
+Plz help! I cannot make "cabal test" work. Fork and fix :)
